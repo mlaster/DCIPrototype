@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190E73F413B0FE8F0005A27E /* DCIRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E73F313B0FE8F0005A27E /* DCIRole.m */; };
+		190E73F813B0FEC70005A27E /* DCIRolePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 190E73F713B0FEC70005A27E /* DCIRolePlayer.m */; };
+		19279DBA13B3E1BE00709E09 /* ModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 19279DB913B3E1BD00709E09 /* ModelClass.m */; };
+		1953A2CC13B14C7800AFCF3A /* RoleTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953A2CB13B14C7800AFCF3A /* RoleTwo.m */; };
+		1993D35413B021B500974E07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1993D35313B021B500974E07 /* Foundation.framework */; };
+		1993D35713B021B500974E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993D35613B021B500974E07 /* main.m */; };
+		1993D36613B0259600974E07 /* RoleOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993D36513B0259600974E07 /* RoleOne.m */; };
+		19DD8B3E13B439C500E907B7 /* Plain.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD8B3D13B439C500E907B7 /* Plain.m */; };
+		19F89A7113B2B50800CFA4BC /* DCIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F89A7013B2B50800CFA4BC /* DCIContext.m */; };
+		19F89A7413B2B66600CFA4BC /* DCIEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F89A7313B2B66500CFA4BC /* DCIEnvironment.m */; };
+		19F89A7713B2BAB900CFA4BC /* UseCaseOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F89A7613B2BAB900CFA4BC /* UseCaseOne.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1993D34D13B021B500974E07 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		190E73F213B0FE8F0005A27E /* DCIRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIRole.h; sourceTree = "<group>"; };
+		190E73F313B0FE8F0005A27E /* DCIRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIRole.m; sourceTree = "<group>"; };
+		190E73F613B0FEC70005A27E /* DCIRolePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DCIRolePlayer.h; sourceTree = "<group>"; };
+		190E73F713B0FEC70005A27E /* DCIRolePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIRolePlayer.m; sourceTree = "<group>"; };
+		19279DB813B3E1BD00709E09 /* ModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelClass.h; sourceTree = "<group>"; };
+		19279DB913B3E1BD00709E09 /* ModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelClass.m; sourceTree = "<group>"; };
+		1953A2CA13B14C7800AFCF3A /* RoleTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleTwo.h; sourceTree = "<group>"; };
+		1953A2CB13B14C7800AFCF3A /* RoleTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleTwo.m; sourceTree = "<group>"; };
+		1993D34F13B021B500974E07 /* DCIPrototype */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DCIPrototype; sourceTree = BUILT_PRODUCTS_DIR; };
+		1993D35313B021B500974E07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1993D35613B021B500974E07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1993D36413B0259600974E07 /* RoleOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleOne.h; sourceTree = "<group>"; };
+		1993D36513B0259600974E07 /* RoleOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleOne.m; sourceTree = "<group>"; };
+		19DD8B3C13B439C500E907B7 /* Plain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plain.h; sourceTree = "<group>"; };
+		19DD8B3D13B439C500E907B7 /* Plain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plain.m; sourceTree = "<group>"; };
+		19F89A6F13B2B50800CFA4BC /* DCIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DCIContext.h; sourceTree = "<group>"; };
+		19F89A7013B2B50800CFA4BC /* DCIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIContext.m; sourceTree = "<group>"; };
+		19F89A7213B2B66500CFA4BC /* DCIEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DCIEnvironment.h; sourceTree = "<group>"; };
+		19F89A7313B2B66500CFA4BC /* DCIEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIEnvironment.m; sourceTree = "<group>"; };
+		19F89A7513B2BAB900CFA4BC /* UseCaseOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCaseOne.h; sourceTree = "<group>"; };
+		19F89A7613B2BAB900CFA4BC /* UseCaseOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCaseOne.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1993D34C13B021B500974E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993D35413B021B500974E07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1993D34413B021B500974E07 = {
+			isa = PBXGroup;
+			children = (
+				19F89A6E13B2B4EA00CFA4BC /* DCI */,
+				19279DB813B3E1BD00709E09 /* ModelClass.h */,
+				19279DB913B3E1BD00709E09 /* ModelClass.m */,
+				19DD8B3C13B439C500E907B7 /* Plain.h */,
+				19DD8B3D13B439C500E907B7 /* Plain.m */,
+				19F89A7513B2BAB900CFA4BC /* UseCaseOne.h */,
+				19F89A7613B2BAB900CFA4BC /* UseCaseOne.m */,
+				1993D36413B0259600974E07 /* RoleOne.h */,
+				1993D36513B0259600974E07 /* RoleOne.m */,
+				1953A2CA13B14C7800AFCF3A /* RoleTwo.h */,
+				1953A2CB13B14C7800AFCF3A /* RoleTwo.m */,
+				1993D35613B021B500974E07 /* main.m */,
+				1993D35213B021B500974E07 /* Frameworks */,
+				1993D35013B021B500974E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1993D35013B021B500974E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1993D34F13B021B500974E07 /* DCIPrototype */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1993D35213B021B500974E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1993D35313B021B500974E07 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19F89A6E13B2B4EA00CFA4BC /* DCI */ = {
+			isa = PBXGroup;
+			children = (
+				19F89A7213B2B66500CFA4BC /* DCIEnvironment.h */,
+				19F89A7313B2B66500CFA4BC /* DCIEnvironment.m */,
+				19F89A6F13B2B50800CFA4BC /* DCIContext.h */,
+				19F89A7013B2B50800CFA4BC /* DCIContext.m */,
+				190E73F213B0FE8F0005A27E /* DCIRole.h */,
+				190E73F313B0FE8F0005A27E /* DCIRole.m */,
+				190E73F613B0FEC70005A27E /* DCIRolePlayer.h */,
+				190E73F713B0FEC70005A27E /* DCIRolePlayer.m */,
+			);
+			path = DCI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1993D34E13B021B500974E07 /* DCIPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1993D35E13B021B500974E07 /* Build configuration list for PBXNativeTarget "DCIPrototype" */;
+			buildPhases = (
+				1993D34B13B021B500974E07 /* Sources */,
+				1993D34C13B021B500974E07 /* Frameworks */,
+				1993D34D13B021B500974E07 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCIPrototype;
+			productName = DCIPrototype;
+			productReference = 1993D34F13B021B500974E07 /* DCIPrototype */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1993D34613B021B500974E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple, Inc.";
+			};
+			buildConfigurationList = 1993D34913B021B500974E07 /* Build configuration list for PBXProject "DCIPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1993D34413B021B500974E07;
+			productRefGroup = 1993D35013B021B500974E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1993D34E13B021B500974E07 /* DCIPrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1993D34B13B021B500974E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993D35713B021B500974E07 /* main.m in Sources */,
+				1993D36613B0259600974E07 /* RoleOne.m in Sources */,
+				190E73F413B0FE8F0005A27E /* DCIRole.m in Sources */,
+				190E73F813B0FEC70005A27E /* DCIRolePlayer.m in Sources */,
+				1953A2CC13B14C7800AFCF3A /* RoleTwo.m in Sources */,
+				19F89A7113B2B50800CFA4BC /* DCIContext.m in Sources */,
+				19F89A7413B2B66600CFA4BC /* DCIEnvironment.m in Sources */,
+				19F89A7713B2BAB900CFA4BC /* UseCaseOne.m in Sources */,
+				19279DBA13B3E1BE00709E09 /* ModelClass.m in Sources */,
+				19DD8B3E13B439C500E907B7 /* Plain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1993D35C13B021B500974E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1993D35D13B021B500974E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1993D35F13B021B500974E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1993D36013B021B500974E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1993D34913B021B500974E07 /* Build configuration list for PBXProject "DCIPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993D35C13B021B500974E07 /* Debug */,
+				1993D35D13B021B500974E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1993D35E13B021B500974E07 /* Build configuration list for PBXNativeTarget "DCIPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1993D35F13B021B500974E07 /* Debug */,
+				1993D36013B021B500974E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1993D34613B021B500974E07 /* Project object */;
+}
